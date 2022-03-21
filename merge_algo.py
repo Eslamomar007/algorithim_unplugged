@@ -1,3 +1,5 @@
+#merge algorithim code to sort a list in time complixity (nlogn)
+
 def merge_sort(arr):
     if len(arr)<2:
         return 
@@ -20,7 +22,6 @@ def merge_sort(arr):
                 j+=1
             k+=1
 
-
         while i < len(left):
             arr[k] = left[i]
             i+=1
@@ -30,18 +31,8 @@ def merge_sort(arr):
             arr[k]=right[j]
             j+=1
             k+=1
-        
-
-
-
+    
 
 arr = [44,22,55,11,565,5]
 print(merge_sort(arr))
 print(arr)
-
-
-
-
-
-
-
