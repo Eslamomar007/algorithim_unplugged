@@ -39,3 +39,9 @@ def merge_sort(arr):
 arr = [44,22,55,11,565,5]
 print(merge_sort(arr))
 print(arr)
+
+# in merge sort we are comparing first number with half of the array because we sorted 
+# the all the element both halfs, so if the first element in first half is greater than 
+# the whole second half, we will but the first half with out comparing. 
+# and the main key that we compare the element with the second half only  not with the 
+# whole array which keeps us half of time in comparing.
