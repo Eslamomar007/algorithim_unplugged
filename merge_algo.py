@@ -40,6 +40,12 @@ arr = [44,22,55,11,565,5]
 print(merge_sort(arr))
 print(arr)
 
+
+#when you compare the last first two elements from the both halfs, you are sure
+#there are no elements behiend this element is less than the first element
+#you are comparing with. [123] and [456]
+# 4 is the lowest element in it's array and 1 is the lowest in it's array. 
+
 # in merge sort we are comparing first number with half of the array because we sorted 
 # the all the element both halfs, so if the first element in first half is greater than 
 # the whole second half, we will but the first half with out comparing. 
